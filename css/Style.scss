@@ -1,0 +1,376 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+$color1:#00b39b;
+$color2:#ababab;
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 768px)  {
+    body {
+      font-size: 10px;
+    }
+   
+    #Logo{
+            width: 150px;
+        }   
+    }
+  
+  
+header{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    a{
+        text-decoration: none;
+    img{
+        width: 200px;
+    }
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+        li{
+            a{
+                text-decoration: none;
+                color: $color2;
+                &:hover{
+                    color: $color1;
+                }
+            }
+        }
+    }
+}
+
+main{
+    padding-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 40px;
+        }
+        .title{
+            padding: 1rem 0;
+            color: $color1;
+            font-size: 2rem;
+            font-family: Work Sans, Arial, sans-serif;
+            font-weight: 300;
+            letter-spacing: -0.3px;
+
+        }
+      .paragraph{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: $color2;
+        padding: 20px 0;
+        gap: 10px;
+        div{
+         width:400px;
+         padding: 10px;
+        }
+      }
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        color: white;
+     
+        div{
+            border-radius: 10px;
+            padding: 20px 0 ;
+            width: 300px;
+            i{
+                padding: 10px 40px 10px;
+            }
+            .title{
+                padding: 10px 40px 10px;
+                font-size: xx-large;
+                font-weight: 200;
+            }
+            p{
+                padding: 0 40px;
+            }
+            #select{
+                height: 100px;
+                padding: 10px 40px;
+                display: flex;
+                flex-direction:column ;
+                justify-content:space-between;
+                align-items: flex-start;
+                select{
+                font-size: 20px;
+                color: white;
+                border: none;
+                text-decoration: underline;
+                background-color: #1b2734;
+            }
+
+            }
+          
+        }
+        
+    }
+    .section3{
+        display: flex;
+        justify-content: center; 
+        gap: 100px; 
+        margin-top: 20px;
+        flex-wrap: wrap;
+        color: #00b39b;
+        background-color: white;
+
+    }
+    .section4{
+        background-color: #d0faf4;
+        display: flex;
+        margin-top: 50px;
+        gap: 10px;
+       
+        justify-content: space-around;
+        flex-wrap: wrap;
+      .subSection1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+        .title{
+            font-size: 1.625em;
+            color: #00b39b;
+            font-family: Work Sans, Arial, sans-serif;
+            font-weight: 300;
+            letter-spacing: -0.3px;
+            padding: 80px 40px 20px 40px;
+        }
+       .paragraph{
+            padding-left: 50px;
+            padding-top: 20px;
+            font-size: 15px;
+            color: #747474;
+            padding-bottom: 50px;
+        }
+        img{
+            width: 350px;
+
+        }
+    }
+    .subSection2{
+        margin-top: 80px;
+        margin-bottom: 20px;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        width: 600px;
+     .tab{
+        padding: 10px 10px 50px 10px;
+        width: 250px;
+        
+        background-color: white;
+        text-align: center;
+        i{
+          font-size: larger;
+            color: #63d1c3;
+        }
+        .titre{
+        font-size: 2em;
+        color: #00b39b;
+        font-family: Work Sans, Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -0.3px;
+        }
+        .paragraph{
+            padding-top: 20px;
+            font-size: 0.8em;
+            font-weight: 400;
+            font-family: Roboto, Arial, sans-serif;
+            color: #747474;
+        }
+
+     }
+    }
+}
+    .section5{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+        font-size: 2.1428571429em;
+        color: #00b39b;
+        font-family: Work Sans, Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        text-align: center;
+        }
+        p{
+        margin: 1.6em 0;
+        line-height: 1.7;
+        text-align: center;
+        font-weight: 400;
+        font-family: Roboto, Arial, sans-serif;
+        color: #747474;
+        }
+    }
+    .section6{
+        display: flex;
+       justify-content: center;
+       
+       
+    }
+    .section7{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       div{
+       text-align: center;
+       h1{
+        font-size: 2.1428571429em;
+        color: #333;
+        margin-bottom: 0.75em;
+        font-family: Work Sans, Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -0.3px;
+        text-align: center
+       }
+       button{
+        background-color: #3d83df;
+        color: #fff;
+        font-family: Roboto, Arial, sans-serif;
+        border-radius: 4px;
+        text-align: center;
+        border: #fff;
+        padding: 12px 14px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        font-size: 12px;
+       }
+       }
+    }
+}
+.country{
+    width: 700px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    
+    div{
+        img{
+            width: 300px;
+        }
+    }
+    }
+.fiche{
+    padding: 10px;
+    &:hover{
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+}
+.buttons{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    button{
+        background-color: #3d83df;
+        color: white;
+        padding: 6px;
+        border-radius: 5px;
+        border: #fff; ;
+    }
+    p{
+        font-size: medium;
+    color: #747474;
+    font-family: Roboto, Arial, sans-serif;
+    }
+}
+.patients{
+    background-color: #00ccb1;
+    select{
+        margin: 85px 40px 5px 40px ;
+       font-size: 20px;
+        color: white;
+        background-color: #00ccb1;
+        border: none;
+        text-decoration: underline;
+    }
+}
+.doctors{
+background-color:  #3d83df;
+select{
+    margin: 85px 40px 5px 40px ;
+   font-size: 20px;
+    color: white;
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    
+}
+}
+.clinics{
+background-color: #1b2734;
+}
+.logos{
+
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-content: space-around;
+    
+    img{
+        width: 100px;
+        height: auto;
+    
+    }
+
+}
+.section3title{
+    margin-top: 20px;
+    font-size: 1.625em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+    p{
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,357 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  #Logo {
+    width: 150px;
+  }
+}
+header {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+header a {
+  text-decoration: none;
+}
+header a img {
+  width: 200px;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+header ul li a {
+  text-decoration: none;
+  color: #ababab;
+}
+header ul li a:hover {
+  color: #00b39b;
+}
+
+main {
+  padding-top: 100px;
+  min-height: 100vh;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+main .section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section1 img {
+  width: 40px;
+}
+main .section1 .title {
+  padding: 1rem 0;
+  color: #00b39b;
+  font-size: 2rem;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+main .section1 .paragraph {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #ababab;
+  padding: 20px 0;
+  gap: 10px;
+}
+main .section1 .paragraph div {
+  width: 400px;
+  padding: 10px;
+}
+main .section2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: white;
+}
+main .section2 div {
+  border-radius: 10px;
+  padding: 20px 0;
+  width: 300px;
+}
+main .section2 div i {
+  padding: 10px 40px 10px;
+}
+main .section2 div .title {
+  padding: 10px 40px 10px;
+  font-size: xx-large;
+  font-weight: 200;
+}
+main .section2 div p {
+  padding: 0 40px;
+}
+main .section2 div #select {
+  height: 100px;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main .section2 div #select select {
+  font-size: 20px;
+  color: white;
+  border: none;
+  text-decoration: underline;
+  background-color: #1b2734;
+}
+main .section3 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  color: #00b39b;
+  background-color: white;
+}
+main .section4 {
+  background-color: #d0faf4;
+  display: flex;
+  margin-top: 50px;
+  gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .section4 .subSection1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main .section4 .subSection1 .title {
+  font-size: 1.625em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding: 80px 40px 20px 40px;
+}
+main .section4 .subSection1 .paragraph {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+}
+main .section4 .subSection1 img {
+  width: 350px;
+}
+main .section4 .subSection2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 600px;
+}
+main .section4 .subSection2 .tab {
+  padding: 10px 10px 50px 10px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+}
+main .section4 .subSection2 .tab i {
+  font-size: larger;
+  color: #63d1c3;
+}
+main .section4 .subSection2 .tab .titre {
+  font-size: 2em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+main .section4 .subSection2 .tab .paragraph {
+  padding-top: 20px;
+  font-size: 0.8em;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+main .section5 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section5 h3 {
+  font-size: 2.1428571429em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+main .section5 p {
+  margin: 1.6em 0;
+  line-height: 1.7;
+  text-align: center;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+main .section6 {
+  display: flex;
+  justify-content: center;
+}
+main .section7 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section7 div {
+  text-align: center;
+}
+main .section7 div h1 {
+  font-size: 2.1428571429em;
+  color: #333;
+  margin-bottom: 0.75em;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+main .section7 div button {
+  background-color: #3d83df;
+  color: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  border: #fff;
+  padding: 12px 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+}
+
+.country {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.country div img {
+  width: 300px;
+}
+
+.fiche {
+  padding: 10px;
+}
+.fiche:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.buttons button {
+  background-color: #3d83df;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  border: #fff;
+}
+.buttons p {
+  font-size: medium;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.patients {
+  background-color: #00ccb1;
+}
+.patients select {
+  margin: 85px 40px 5px 40px;
+  font-size: 20px;
+  color: white;
+  background-color: #00ccb1;
+  border: none;
+  text-decoration: underline;
+}
+
+.doctors {
+  background-color: #3d83df;
+}
+.doctors select {
+  margin: 85px 40px 5px 40px;
+  font-size: 20px;
+  color: white;
+  background-color: #3d83df;
+  border: none;
+  text-decoration: underline;
+}
+
+.clinics {
+  background-color: #1b2734;
+}
+
+.logos {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: space-around;
+}
+.logos img {
+  width: 100px;
+  height: auto;
+}
+
+.section3title {
+  margin-top: 20px;
+  font-size: 1.625em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+footer p {
+  padding-top: 20px;
+}/*# sourceMappingURL=Style2.css.map */
